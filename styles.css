@@ -1,0 +1,85 @@
+/* General Styles
+   ============================= */
+body {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header
+   ============================= */
+   header{
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+   }
+
+   header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   }
+
+   header ul a{
+    margin-right: 1rem;
+   }
+
+/* Post List
+   ============================= */
+#post-list {
+  list-style: none;
+}
+
+#post-list img {
+  max-width: 600px !important;
+}
+
+#post-list li {
+  margin-bottom: 2rem;
+}
+
+/* Pagination
+   ============================= */
+#pagination-wrapper {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#pagination-wrapper a {
+  padding: 0.5rem;
+  border: 2px solid #cecece;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+#pagination-wrapper .active {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  background-color: lightgray;
+}
+
+/* Single post
+   ============================= */
+#post-wrapper img {
+  max-width: 600px !important;
+}
+
+#comment-form{
+  display: none;
+}
+
+/* Forms
+   ============================= */
+   form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+   }
+
+   form .field-wrapper{
+     margin-bottom: 2rem;
+   }
